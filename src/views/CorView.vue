@@ -1,6 +1,6 @@
 <script setup>
 import { ref, reactive, onMounted } from "vue";
-import CorApi from "@/api/cor";
+import CorApi from "@/api/cores";
 const corApi = new CorApi();
 
 const defaultCor = { id: null, nome: ""};
